@@ -5,14 +5,25 @@
         </title>
     </head>
     <body>
-        <h1>  about my self </h1>
-        <h2>  about my self </h2>
+        <h1 style="color:red">  about my self </h1>
+        <h2 style="background-color:green;color:blue">  about my self </h2>
         <h3>  about my self </h3>
         <h4>  about my self </h4>
         <p>
-            prathyusha padmanabhni , iam a stuedent of anits
+            <b>prathyu<i>sha</i> padmanabhni </b>, iam a stuedent of <u>anits</u>
         </p> 
-        <img src="C:\Users\Srinivas\Desktop\IMG_20151220_182644242.jpg" width="40%" height ="30%" alt="prathyu">
+        <p><code><pre>
+            void main()
+            {
+                printf("hello world");
+            }
+             </pre>
+            </code>
+        </p>
+        <p>
+            the formula of thw water is 
+        </p>
+        <img src="C:\Users\Srinivas\Desktop\IMG_20151220_182644242.jpg" width="60%" height ="50%" alt="prathyu">
         <br>
         <a href="https://www.anits.edu.in/fresults_all.php">anits</a>
         <ul type="square"> 
@@ -57,20 +68,19 @@
 
         </dl>
 
-    </body>
-</html>
+   
 <!-- table -->
 <table border="2">
     <tr> 
        <th>s.no</th> 
-       <th>name</th> 
+       <th colspan = "2">name</th> 
        <th>clg</th> 
        <th>qualification</th> 
     </tr>
     <tr> 
         <td>1.</td>
         <td>prathyusha</td>
-        <td>anits</td>
+        <td rowspan ="2">anits</td>
         <td>b.tech</td>
     </tr>
     <tr> 
@@ -105,3 +115,71 @@
         
     </tr>
 </table>
+<!-- FORM TAGS-->
+<form>
+   <fieldset>
+       <br>
+    <legend student info> </legend>
+    Enter user name :<br>
+    <input type="text"  name="username" placeholder="enter name">
+    <br>
+    Password:<br>
+    <input type="password"  name="password" placeholder="enter password" >
+     <br>
+    <label>Enter user email:</label><br>
+    <input type="email" placeholder="enter you mail">
+    <br>
+    female :
+    <input type="radio" name="gender" value="male">
+    male :
+    <input type="radio" name="gender" value="female">
+    girl :
+    <input type="checkbox" name="gender"  >
+    boy :
+    <input type="checkbox" name="gender" >
+    <input type="submit" >
+    <br>
+    <input type="file" names="files"> <br>
+    <textarea rows="5" cols="30">
+         
+     </textarea>
+     <br>
+     <button> click here </button>
+     <br>
+     <select>
+         <option>cse</option>
+         <option>ece</option>
+         <option>eee</option>
+         <option>mech</option>
+     </select>
+  
+  </fieldset>
+
+</form>
+<h3 style="color:green">about division tag</h3>
+<p style="color:green"> div tag is acts a container remaining tags</p>
+<div style="color:rgb(55, 0, 255);text-align:center">
+    <h3>about division tag</h3>
+    <p> div tag is acts a container remaining tags</p>
+</div>
+<hr>
+<div style="background-color:blue"><p>prathyusha</p></div>
+<span style="background-color:red">prathyusha</span>
+<header>SCHEMATIC TAGS</header>
+<main>
+    <h3>main</h3>
+    <p>schematic examples</p>
+</main>
+<footer>@copyrights</footer>
+<div>schematic tags</div>
+<div>
+    <h3>main</h3>
+    <p>schematic examples</p>
+</mdiv>
+<div>
+    @copyrights
+</div>
+
+
+</body>
+</html>
